@@ -3,7 +3,7 @@
 Comprehensive summary for a **progressive learning path** based on two foundational resources:
 
 - 🤗 [**Hugging Face's LLM Course**](https://huggingface.co/learn/llm-course/)
-- 🎓 [**Sequence Models Course** by DeepLearning.AI on Coursera](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization** by Andrew Ng
+- 🎓 [**Sequence Models Course** by DeepLearning.AI on Coursera](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization**
 
 ## 📁 Structure
 
