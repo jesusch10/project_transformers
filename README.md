@@ -1,9 +1,10 @@
 # 🚀 Advanced Large Language Models (LLMs) use with Hugging Face Ecosystem:
 
-Comprehensive summary for a **progressive learning path** based on two foundational resources:
+Comprehensive summary for a **progressive learning path** based on next foundational resources:
 
 - 🤗 [**Hugging Face's LLM Course**](https://huggingface.co/learn/llm-course/)
-- 🎓 [**Sequence Models Course** by DeepLearning.AI on Coursera](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization**
+- 🎓 [**Generative AI with Large Language Models Course** by AWS and DeepLearning.AI](https://www.coursera.org/learn/generative-ai-with-llms)
+- 🎓 [**Sequence Models Course** by DeepLearning.AI](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization**
 
 ## 📁 Structure
 
