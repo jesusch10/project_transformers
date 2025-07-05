@@ -1,15 +1,15 @@
-# 🚀 Advanced Large Language Models (LLMs) use with Hugging Face Ecosystem:
+# Advanced Large Language Models (LLMs) development:
 
-Comprehensive summary for a **progressive learning path** based on next foundational resources:
+This repository represents a comprehensive summary of my progressive learning path on Recurrent Neural Networks (RNNs), Long Short Term Memory (LSTM), and Transformers architectures based on next foundational resources:
 
-- 🤗 [**Hugging Face's LLM Course**](https://huggingface.co/learn/llm-course/)
-- 🎓 [**Generative AI with Large Language Models Course** by AWS and DeepLearning.AI](https://www.coursera.org/learn/generative-ai-with-llms)
-- 🎓 [**Sequence Models Course** by DeepLearning.AI](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization**
+- [**LLM Course** by Hugging Face](https://huggingface.co/learn/llm-course/)
+- [**Generative AI with Large Language Models Course** by AWS](https://www.coursera.org/learn/generative-ai-with-llms)
+- [**Sequence Models Course** by DeepLearning.AI](https://www.coursera.org/learn/nlp-sequence-models), part of the **Deep Learning Specialization**
 
 ## 📁 Structure
 
 ```bash
-📂 notebooks/
+📂 hugging_ecosystem_usage/
     ├── chap1-pretrained_LLM.ipynb
     ├── chap2-autotokenizers_and_automodels.ipynb
     ├── chap3-fine_tune_basic.ipynb
@@ -20,8 +20,5 @@ Comprehensive summary for a **progressive learning path** based on next foundati
     ├── chap8-fine_tune_advanced.ipynb
     └── chap9-detoxifying_models.ipynb
 
-📂 data/
-    └── (Datasets used in the notebooks are linked externally)
-
-📂 models/
-    └── (Checkpoints and model cards shared)
+📂 dinosaurus_model_from_scratch/
+    └── Character level language model from scratch to generate new dinosaurus names
