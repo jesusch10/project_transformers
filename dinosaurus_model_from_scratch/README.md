@@ -1,10 +1,9 @@
 In this section I built and trained a character level language model from scratch to generate new dinosaurus names (`create_dinosaurus_model`). The network architecture is as follows:
 
 <img src="figures/rnn_forward.png" style="width:800px;height:180px;">
-**Figure 1**: Basic RNN. The input sequence  
-\( x = (x^{\langle 1 \rangle}, x^{\langle 2 \rangle}, \ldots, x^{\langle T_x \rangle}) \)  
-is carried over \( T_x \) time steps. The network outputs  
-\( y = (y^{\langle 1 \rangle}, y^{\langle 2 \rangle}, \ldots, y^{\langle T_x \rangle}) \).
+**Figure 1**: Visualization of the model.
+The input sequence $x = (x^{\langle 1 \rangle}, x^{\langle 2 \rangle}, \ldots, x^{\langle T_x \rangle})$ is carried over $T_x$ time steps.
+The network outputs $y = (y^{\langle 1 \rangle}, y^{\langle 2 \rangle}, \ldots, y^{\langle T_x \rangle})$.
 
 Some definitions:
 * Superscript $[l]$ denotes an object associated with the $l^{th}$ layer. 
