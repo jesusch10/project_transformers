@@ -1,9 +1,7 @@
 In this section I built and trained a character level language model from scratch to generate new dinosaurus names (`create_dinosaurus_model`). The network architecture is as follows:
 
-<img src="figures/rnn_forward.png" style="width:800px;height:180px;">
+![Figure 1](figures/rnn_forward.png)
 **Figure 1**: Visualization of the model.
-The input sequence $x = (x^{\langle 1 \rangle}, x^{\langle 2 \rangle}, \ldots, x^{\langle T_x \rangle})$ is carried over $T_x$ time steps.
-The network outputs $y = (y^{\langle 1 \rangle}, y^{\langle 2 \rangle}, \ldots, y^{\langle T_x \rangle})$.
 
 Some definitions:
 * Superscript $[l]$ denotes an object associated with the $l^{th}$ layer. 
@@ -21,9 +19,9 @@ step.
 
 I also implemented two important techniques from scratch to build the model:
 
-| ![Figure 1](figures/clip.png) | ![Figure 2](figures/sampling.png) |
+| ![Figure 2](figures/clip.png) | ![Figure3](figures/sampling.png) |
 |:-----------------------------:|:----------------------------------:|
-| **Figure 1**: Gradient clipping to To avoid exploding gradients | **Figure 2**: Sampling technique to generate characters |
+| **Figure 2**: Gradient clipping to To avoid exploding gradients | **Figure 3**: Sampling technique to generate characters |
 
 All implementations from scratch are contained in `rnn_lstm_blocks.py`:
 Implementing the forward passes for both the basic RNN and the LSTM:
