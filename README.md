@@ -1,4 +1,4 @@
-# Advanced Large Language Models (LLMs) development:
+# Advanced Large Language Models (LLMs):
 
 This repository documents my hands-on learning journey in building and understanding Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Transformer-based architectures. It includes both foundational implementations and practical applications using state-of-the-art tools and libraries.
 
