@@ -1,4 +1,4 @@
-In this section I built and trained an LSTM using Keras to generate Jazz music (`create_jazz_model.ipynb`). The network architecture is as follows:
+In this section I built and trained a LSTM using Keras to generate Jazz music (`create_jazz_model.ipynb`). The network architecture is as follows:
 
 ![Figure 1](figures/lstm_forward.png)
 **Figure 1**: Basic LSTM model.
@@ -9,7 +9,7 @@ Some definitions:
 
 Once the model is trained model, I used it to synthesize new music using the sampling technique:
 
-![Figure2](figures/sampling.png)
+![Figure2](figures/sampling_lstm.png)
 **Figure 2**: Generating new values in an LSTM
 
 This project uses these scripts to manage audio data (the original authors of the reused code are listed in the header comments of the corresponding scripts):
