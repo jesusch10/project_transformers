@@ -1,4 +1,4 @@
-In this section I built and trained a character level language model from scratch to generate new dinosaurus names (`create_dinosaurus_model`). The network architecture is as follows:
+In this section I built and trained a character level language model from scratch to generate new dinosaurus names (`create_dinosaurus_model.ipynb`). The network architecture is as follows:
 
 ![Figure 1](figures/rnn_forward.png)
 **Figure 1**: Visualization of the model.
@@ -23,8 +23,7 @@ I also implemented two important techniques from scratch to build the model:
 |:-----------------------------:|:----------------------------------:|
 | **Figure 2**: Gradient clipping to To avoid exploding gradients | **Figure 3**: Sampling technique to generate characters |
 
-All implementations from scratch are contained in `rnn_lstm_blocks.py`:
-Implementing the forward passes for both the basic RNN and the LSTM:
+All implementations from scratch for the forward passes for both the basic RNN and the LSTM are contained in `rnn_lstm_blocks.py`, which is structured like this:
 - RNN blocks:
     - RNN Cell
     - RNN Forward Pass (forward propagation in batches)
