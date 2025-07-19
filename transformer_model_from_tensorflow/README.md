@@ -19,12 +19,12 @@ The data flow through the Transformer Architecture is as follows:
 These workflow was implemented using TensorFlow in `transformer_blocks.py` which is divided in next sections:
 - **Positional encoding functions**: create positional encodings to capture sequential relationships in data using these sine and cosine formulas:
 $$
-PE_{(pos, 2i)}= sin\left(\frac{pos}{{10000}^{\frac{2i}{d}}}\right)
-\tag{1}$$
-<br>
+PE_{(pos,2i)} = \sin\left(\frac{pos}{10000^{2i/d}}\right)
 $$
-PE_{(pos, 2i+1)}= cos\left(\frac{pos}{{10000}^{\frac{2i}{d}}}\right)
-\tag{2}$$
+
+$$
+PE_{(pos,2i+1)} = \cos\left(\frac{pos}{10000^{2i/d}}\right)
+$$
 
     where $d$ is the dimension of the word embedding and positional encoding, $pos$ is the position of the word, and $k$ refers to each of the different dimensions in the positional encodings, with $i$ equal to $k$ $//$ $2$. Every pair of dimensions (2i, 2i+1) corresponds to one frequency, which is gradually decreases for higher i.
 
@@ -42,7 +42,8 @@ PE_{(pos, 2i+1)}= cos\left(\frac{pos}{{10000}^{\frac{2i}{d}}}\right)
 - **Masking functions**: padding mask (sequences longer than the maximum length of five will be truncated, and zeros will be added to the truncated sequence to achieve uniform length) and look-ahead mask (helps the model to correctly predict the next output without looking ahead).
 - **Self-attention function** (from the paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762)): implements scaled dot product attention which takes in a query (Q), key (K), value (V), and a mask (M) as input matrices to return rich, attention-based vector representations of the words in the sequence. This type of self-attention can be mathematically expressed as:
 $$
-\text { Attention }(Q, K, V)=\operatorname{softmax}\left(\frac{Q K^{T}}{\sqrt{d_{k}}}+{M}\right) V\tag{4}\
+\mathrm{Attention}(Q, K, V) =
+\mathrm{softmax}\!\left(\frac{Q K^{T}}{\sqrt{d_k}} + M \right) V
 $$
     where ${d_k}$ is the dimension of the keys, which is used to scale everything down so the softmax doesn't explode.
 
