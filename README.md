@@ -12,8 +12,11 @@ The work is inspired and guided by the following key learning resources:
 
 ```bash
 📂 LLMs_models_from_hugging_ecosystem/
-    └── Transformers and Hugging Face workflows to train, fine-tune, and manage LLMs
+    └── I summarized the Transformers and Hugging Face workflows to train, fine-tune, and manage LLMs
 📂 dinosaurus_model_from_scratch/
-    └── RNN model from scratch to generate new dinosaurus names
+    └── I created a RNN model from scratch to generate new dinosaurus names
 📂 jazz_model_from_keras/
-    └── LSTM model using Keras to generate Jazz music
+    └── I created a LSTM model using Keras to generate Jazz music
+📂 transformer_model_from_tensorflow/
+    └── I built the Transformer architecture using TensorFlow ready for training
+
